@@ -5,6 +5,7 @@
 - English profile for an international recruiting audience.
 - Headline: **Senior Full-Stack Developer & AI Product Engineer**.
 - The owner's preferred emphasis is games and skills first, followed by open source and gists. Professional experience appears near the bottom, with additional details in a collapsed section and no professional screenshots or demo videos.
+- Preserve the owner's game order: ONE PIEXEL, FASTR, ICONIC. Use the owner-provided YouTube/Instagram trailer links for both preview clicks and the corresponding trailer labels, with a separately labeled repository MP4 alternative. YouTube sharing parameters have been removed.
 - Professional context supplied by the owner: nine years working on high-volume SaaS at Paragone, lempire, Weblib and SportsDynamics, including Tweet Hunter and Taplio at lempire. Specific backend, automation, AWS and database contributions are summarized across roles without attributing them to an unconfirmed employer. No revenue, team size or personal performance outcomes are inferred.
 - AWS Certified Developer – Associate is described as earned in 2019, not as a currently active credential.
 - Owner-reported project figures as of October 2026: approximately 1,000 visits since launch for each game, approximately 100 registered accounts for ICONIC and 50 for ONE PIEXEL. These are not active-user counts or unique visitors.
@@ -34,7 +35,7 @@ Python, RAG, model training, evaluations and other skills from job descriptions 
 
 ## Trailers
 
-The README uses seven-second animated GIF excerpts from the original local MP4s, at 7 fps with a 96-color palette. The three previews total approximately 3.3 MB, down from 4.3 MB. All previews share a 480 × 270 canvas; portrait footage is padded to preserve its proportions. Clicking a preview opens the complete MP4 through an explicit repository URL.
+The README uses seven-second animated GIF excerpts from the original local MP4s, at 7 fps with a 96-color palette. The three previews total approximately 3.6 MB. Landscape previews use a 480 × 270 canvas; ICONIC preserves its portrait format at 240 pixels wide so its interface remains legible. Preview clicks open the published social trailer; the separate MP4 links open the repository copy.
 
 Each preview has a static JPEG alternative selected through a `picture` element for visitors who prefer reduced motion. Project sections are stacked so previews and links do not compete for space in a three-column grid.
 
@@ -43,13 +44,17 @@ To regenerate with FFmpeg installed:
 ```powershell
 foreach ($name in @('fastr', 'iconic', 'one-piexel')) {
   $start = if ($name -eq 'iconic') { 2 } else { 32 }
-  ffmpeg -hide_banner -loglevel error -ss $start -t 7 -i "assets/$name-trailer.mp4" -filter_complex "fps=7,scale=480:270:force_original_aspect_ratio=decrease:flags=lanczos,pad=480:270:(ow-iw)/2:(oh-ih)/2:color=0x0b1120,split[a][b];[a]palettegen=max_colors=96:stats_mode=diff[p];[b][p]paletteuse=dither=bayer:bayer_scale=4" -loop 0 -y "assets/$name-preview.gif"
+  $scale = if ($name -eq 'iconic') { 'scale=240:-2:flags=lanczos' } else { 'scale=480:270:force_original_aspect_ratio=decrease:flags=lanczos,pad=480:270:(ow-iw)/2:(oh-ih)/2:color=0x0b1120' }
+  ffmpeg -hide_banner -loglevel error -ss $start -t 7 -i "assets/$name-trailer.mp4" -filter_complex "fps=7,$scale,split[a][b];[a]palettegen=max_colors=96:stats_mode=diff[p];[b][p]paletteuse=dither=bayer:bayer_scale=4" -loop 0 -y "assets/$name-preview.gif"
   $posterTime = if ($name -eq 'iconic') { 12 } else { 35 }
-  ffmpeg -hide_banner -loglevel error -ss $posterTime -i "assets/$name-trailer.mp4" -frames:v 1 -vf "scale=640:360:force_original_aspect_ratio=decrease,pad=640:360:(ow-iw)/2:(oh-ih)/2:color=0x0b1120" -y "assets/$name-poster.jpg"
+  $posterScale = if ($name -eq 'iconic') { 'scale=240:-2:flags=lanczos' } else { 'scale=640:360:force_original_aspect_ratio=decrease,pad=640:360:(ow-iw)/2:(oh-ih)/2:color=0x0b1120' }
+  ffmpeg -hide_banner -loglevel error -ss $posterTime -i "assets/$name-trailer.mp4" -frames:v 1 -vf $posterScale -y "assets/$name-poster.jpg"
 }
 ```
 
-The banner is a local SVG with no remote fonts or scripts. Skill and social badges use Shields.io and require that service to be available.
+The banner is a local SVG with no remote fonts or scripts. Skill badges use Shields.io and require that service to be available; contact links are plain text.
+
+The final local preview was checked at desktop and mobile widths, including navigation targets, image loading, portrait proportions and the professional section's expand/collapse behavior. GitHub controls the exact final typography and Markdown sanitization.
 
 ## Publishing
 

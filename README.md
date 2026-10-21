@@ -4,13 +4,11 @@
 
 <h1>Senior Full-Stack Developer &amp; AI Product Engineer</h1>
 
-**I build browser games, AI workflows and TypeScript tools — backed by 9 years of SaaS engineering.**
-
-My stack spans **TypeScript, React, Next.js and Node.js**, with **AI agents, skills and development workflows**. Explore my games below, including FASTR's dictionary automation, or inspect **Unbox**, my TypeScript utility published on npm.
+I build **browser games, AI workflows and developer tools** with **TypeScript, React, Next.js and Node.js**. My **9 years of SaaS engineering** inform how I approach backend systems, frontend apps, automation and delivery.
 
 **Backend & delivery:** NestJS · GraphQL · PostgreSQL · MongoDB · AWS · Docker · CI/CD
 
-**Discuss a role or a project:** [LinkedIn →](https://www.linkedin.com/in/dylan-tuna-635405a8/) · [X / @DylanTuna](https://x.com/DylanTuna) · [YouTube / Corvus Web Studio](https://www.youtube.com/@CorvusWebStudio)
+**Let's connect:** [LinkedIn →](https://www.linkedin.com/in/dylan-tuna-635405a8/) · [X / @DylanTuna](https://x.com/DylanTuna) · [YouTube / Corvus Web Studio](https://www.youtube.com/@CorvusWebStudio)
 
 <p>
   <a href="#games">Games</a> &nbsp; / &nbsp;
@@ -22,37 +20,42 @@ My stack spans **TypeScript, React, Next.js and Node.js**, with **AI agents, ski
 
 ## Games
 
-Three projects you can try, each with approximately **1,000 visits since launch**. Previews link to the full trailers.
+Play the games, watch the trailers, or explore the engineering behind each project.
 
 ### ONE PIEXEL — pixel-art fighting game
 
-**50 registered accounts** since its recent launch.
+One piece pixel-art combat in the browser, with account management built around Next.js.
 
-[Play ONE PIEXEL →](https://one-piexel.gg/) · [Full trailer · 1:39](https://youtu.be/ONCxnPIFi60?si=W1M6P9zhqSow09BI)
+**~1,000 visits · ~50 registered accounts**
+- **PeerJS:** Online versus game with direct browser communication.
+- **Social conenctors:** Login and create an account with 4 differents social connectors.
+- **Matchmaking and ranked system:** Full integration of Queu system and mongoDB stored informations
+  
+[Play ONE PIEXEL →](https://one-piexel.gg/) · [YouTube trailer](https://youtu.be/ONCxnPIFi60) · [MP4](https://github.com/cendevweb/cendevweb/blob/main/assets/one-piexel-trailer.mp4)
 
-<a href="https://github.com/cendevweb/cendevweb/blob/main/assets/one-piexel-trailer.mp4">
+<a href="https://youtu.be/ONCxnPIFi60">
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/one-piexel-poster.jpg" />
-    <img src="assets/one-piexel-preview.gif" width="480" alt="ONE PIEXEL — pixel-art combat gameplay. Open the full trailer." />
+    <img src="assets/one-piexel-preview.gif" width="480" alt="ONE PIEXEL — pixel-art combat gameplay. Watch the trailer on YouTube." />
   </picture>
 </a>
 
-<sub>Approximate totals since launch, as of October 2026. Visits and registered accounts are separate metrics.</sub>
-
 ### FASTR — multiplayer word race
 
-Race other players to find words within a theme across four timed rounds. No account is required.
+Race other players to find words within a theme across four timed rounds.
+
+**~250 visits · No account required**
 
 - **AI dictionary workflows:** reusable skills to create and improve dictionaries, and incorporate automatically collected player suggestions.
 - **Backoffice:** an interface to manage dictionaries and their workflows.
 - **Real-time interaction:** WebSocket development for the multiplayer experience.
 
-[Play FASTR →](https://fastr.gg/) · [Full trailer · 1:32](https://youtu.be/jz26XgZvl_w?si=q0eZP8WZK3o5gxBR)
+[Play FASTR →](https://fastr.gg/) · [YouTube trailer](https://youtu.be/jz26XgZvl_w) · [MP4](https://github.com/cendevweb/cendevweb/blob/main/assets/fastr-trailer.mp4)
 
-<a href="https://github.com/cendevweb/cendevweb/blob/main/assets/fastr-trailer.mp4">
+<a href="https://youtu.be/jz26XgZvl_w">
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/fastr-poster.jpg" />
-    <img src="assets/fastr-preview.gif" width="480" alt="FASTR browser game — gameplay preview. Open the full trailer." />
+    <img src="assets/fastr-preview.gif" width="480" alt="FASTR — a timed multiplayer word race. Watch the trailer on YouTube." />
   </picture>
 </a>
 
@@ -60,18 +63,20 @@ Race other players to find words within a theme across four timed rounds. No acc
 
 Identify characters from visual clues, with progress tracking and streak bonuses.
 
-**100 registered accounts** since launch.
+**~1,000 visits · ~100 registered accounts**
 
-[Play ICONIC →](https://iconic-game.gg/) · [Full trailer · 0:32](https://www.instagram.com/p/DN_3U63AlTN/)
+[Play ICONIC →](https://iconic-game.gg/) · [Instagram trailer](https://www.instagram.com/p/DN_3U63AlTN/) · [MP4](https://github.com/cendevweb/cendevweb/blob/main/assets/iconic-trailer.mp4)
 
-<a href="https://github.com/cendevweb/cendevweb/blob/main/assets/iconic-trailer.mp4">
+<a href="https://www.instagram.com/p/DN_3U63AlTN/">
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/iconic-poster.jpg" />
-    <img src="assets/iconic-preview.gif" width="480" alt="ICONIC — identify a manga character from an illustrated clue. Open the full trailer." />
+    <img src="assets/iconic-preview.gif" width="240" alt="ICONIC — identify a character from an illustrated clue. Watch the trailer on Instagram." />
   </picture>
 </a>
 
 **Account management:** Next.js with Better Auth / Auth.js across ICONIC and ONE PIEXEL.
+
+<sub>Approximate totals since launch, as of October 2026. Visits and registered accounts are separate metrics.</sub>
 
 ## Technical stack
 
@@ -87,7 +92,6 @@ Identify characters from visual clues, with progress tracking and streak bonuses
 ![Node.js](https://img.shields.io/badge/Node.js-417E38?style=flat-square&logo=nodedotjs&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
-
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-116149?style=flat-square&logo=mongodb&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
@@ -135,14 +139,14 @@ const { data } = result;
 
 ## TypeScript patterns
 
-Practical snippets for everyday development, including the four gists pinned on my profile. The examples cover both TypeScript typing and JavaScript runtime behavior.
+Four pinned gists covering TypeScript typing and JavaScript runtime patterns.
 
 | Pattern | What it demonstrates |
 | :--- | :--- |
-| [Function overloads](https://gist.github.com/cendevweb/cf22bca87833bd358cca86c2ccbaf73c) | Express different return types for different input signatures. |
-| [Lookup tables](https://gist.github.com/cendevweb/db42f2bf8fa5f16fa42d50e2d0502d6a) | Represent status mappings as data for straightforward lookups. |
-| [Conditional object spread](https://gist.github.com/cendevweb/8d4705121ac7cdfe860167b0dd59649c) | A compact example of conditional object spread with a `typeof` check. |
-| [Proxy validator](https://gist.github.com/cendevweb/d2022012c4907d51ca98610169157018) | Intercept property assignments with a JavaScript `Proxy`. |
+| [Function overloads](https://gist.github.com/cendevweb/cf22bca87833bd358cca86c2ccbaf73c) | Match return types to input signatures. |
+| [Lookup tables](https://gist.github.com/cendevweb/db42f2bf8fa5f16fa42d50e2d0502d6a) | Express status mappings as data. |
+| [Conditional object spread](https://gist.github.com/cendevweb/8d4705121ac7cdfe860167b0dd59649c) | Combine conditional spreads and `typeof` checks. |
+| [Proxy validator](https://gist.github.com/cendevweb/d2022012c4907d51ca98610169157018) | Intercept property assignments with `Proxy`. |
 
 [Browse all my gists →](https://gist.github.com/cendevweb)
 
