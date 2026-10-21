@@ -24,43 +24,11 @@ My stack spans **TypeScript, React, Next.js and Node.js**, with **AI agents, ski
 
 Three projects you can try, each with approximately **1,000 visits since launch**. Previews link to the full trailers.
 
-### FASTR — multiplayer word race
-
-Race other players to find words within a theme across four timed rounds. No account is required.
-
-- **AI dictionary workflows:** reusable skills to create and improve dictionaries, and incorporate automatically collected player suggestions.
-- **Backoffice:** an interface to manage dictionaries and their workflows.
-- **Real-time interaction:** WebSocket development for the multiplayer experience.
-
-[Play FASTR →](https://fastr.gg/) · [Full trailer · 1:32](https://github.com/cendevweb/cendevweb/blob/main/assets/fastr-trailer.mp4)
-
-<a href="https://github.com/cendevweb/cendevweb/blob/main/assets/fastr-trailer.mp4">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/fastr-poster.jpg" />
-    <img src="assets/fastr-preview.gif" width="480" alt="FASTR browser game — gameplay preview. Open the full trailer." />
-  </picture>
-</a>
-
-### ICONIC — guess the manga character
-
-Identify characters from visual clues, with progress tracking and streak bonuses.
-
-**100 registered accounts** since launch.
-
-[Play ICONIC →](https://iconic-game.gg/) · [Full trailer · 0:32](https://github.com/cendevweb/cendevweb/blob/main/assets/iconic-trailer.mp4)
-
-<a href="https://github.com/cendevweb/cendevweb/blob/main/assets/iconic-trailer.mp4">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/iconic-poster.jpg" />
-    <img src="assets/iconic-preview.gif" width="480" alt="ICONIC — identify a manga character from an illustrated clue. Open the full trailer." />
-  </picture>
-</a>
-
 ### ONE PIEXEL — pixel-art fighting game
 
 **50 registered accounts** since its recent launch.
 
-[Play ONE PIEXEL →](https://one-piexel.gg/) · [Full trailer · 1:39](https://github.com/cendevweb/cendevweb/blob/main/assets/one-piexel-trailer.mp4)
+[Play ONE PIEXEL →](https://one-piexel.gg/) · [Full trailer · 1:39](https://youtu.be/ONCxnPIFi60?si=W1M6P9zhqSow09BI)
 
 <a href="https://github.com/cendevweb/cendevweb/blob/main/assets/one-piexel-trailer.mp4">
   <picture>
@@ -70,6 +38,38 @@ Identify characters from visual clues, with progress tracking and streak bonuses
 </a>
 
 <sub>Approximate totals since launch, as of October 2026. Visits and registered accounts are separate metrics.</sub>
+
+### FASTR — multiplayer word race
+
+Race other players to find words within a theme across four timed rounds. No account is required.
+
+- **AI dictionary workflows:** reusable skills to create and improve dictionaries, and incorporate automatically collected player suggestions.
+- **Backoffice:** an interface to manage dictionaries and their workflows.
+- **Real-time interaction:** WebSocket development for the multiplayer experience.
+
+[Play FASTR →](https://fastr.gg/) · [Full trailer · 1:32](https://youtu.be/jz26XgZvl_w?si=q0eZP8WZK3o5gxBR)
+
+<a href="https://github.com/cendevweb/cendevweb/blob/main/assets/fastr-trailer.mp4">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/fastr-poster.jpg" />
+    <img src="assets/fastr-preview.gif" width="480" alt="FASTR browser game — gameplay preview. Open the full trailer." />
+  </picture>
+</a>
+
+### ICONIC — guess the character from an icon
+
+Identify characters from visual clues, with progress tracking and streak bonuses.
+
+**100 registered accounts** since launch.
+
+[Play ICONIC →](https://iconic-game.gg/) · [Full trailer · 0:32](https://www.instagram.com/p/DN_3U63AlTN/)
+
+<a href="https://github.com/cendevweb/cendevweb/blob/main/assets/iconic-trailer.mp4">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/iconic-poster.jpg" />
+    <img src="assets/iconic-preview.gif" width="480" alt="ICONIC — identify a manga character from an illustrated clue. Open the full trailer." />
+  </picture>
+</a>
 
 **Account management:** Next.js with Better Auth / Auth.js across ICONIC and ONE PIEXEL.
 
