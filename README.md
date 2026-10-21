@@ -24,13 +24,14 @@ Play the games, watch the trailers, or explore the engineering behind each proje
 
 ### ONE PIEXEL — pixel-art fighting game
 
-One piece pixel-art combat in the browser, with account management built around Next.js.
+One Piece pixel-art combat in the browser, with account management built around Next.js.
 
 **~1,000 visits · ~50 registered accounts**
-- **PeerJS:** Online versus game with direct browser communication.
-- **Social conenctors:** Login and create an account with 4 differents social connectors.
-- **Matchmaking and ranked system:** Full integration of Queu system and mongoDB stored informations
-  
+
+- **PeerJS:** Online versus gameplay with direct browser-to-browser communication.
+- **Social connectors:** Log in or create an account using four different social connectors.
+- **Matchmaking and ranking system:** Fully integrated queue system with information stored in MongoDB.
+
 [Play ONE PIEXEL →](https://one-piexel.gg/) · [YouTube trailer](https://youtu.be/ONCxnPIFi60) · [MP4](https://github.com/cendevweb/cendevweb/blob/main/assets/one-piexel-trailer.mp4)
 
 <a href="https://youtu.be/ONCxnPIFi60">
