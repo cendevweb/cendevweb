@@ -1,0 +1,20 @@
+{
+  "name": "cendevweb-profile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dylan Tuna's GitHub profile — Senior Full-Stack Developer & AI Product Engineer",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "prepush": "npm run check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cendevweb/cendevweb.git"
+  },
+  "homepage": "https://github.com/cendevweb",
+  "author": "Dylan Tuna"
+}

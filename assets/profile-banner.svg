@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc">
+<title id="title">Dylan Tuna</title>
+<desc id="desc">Products, playful experiences and developer tools.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1120"/><stop offset="1" stop-color="#172642"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#5eead4"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#94a3b8" stroke-opacity=".07"/></pattern>
+</defs>
+<rect width="1200" height="310" rx="20" fill="url(#bg)"/>
+<rect width="1200" height="310" rx="20" fill="url(#grid)"/>
+<rect x="54" y="55" width="36" height="4" rx="2" fill="#5eead4"/>
+<text x="54" y="100" fill="#5eead4" font-family="Segoe UI,Arial,sans-serif" font-size="15" letter-spacing="4">ENGINEER. CREATE. SHIP.</text>
+<text x="50" y="178" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="68" font-weight="700" letter-spacing="-2">Dylan Tuna<tspan fill="#5eead4">.</tspan></text>
+<text x="54" y="222" fill="#cbd5e1" font-family="Segoe UI,Arial,sans-serif" font-size="21">Products, playful experiences &amp; developer tools.</text>
+<g transform="translate(891 58)" fill="none" stroke="url(#accent)" stroke-width="2">
+<rect width="220" height="188" rx="16" stroke-opacity=".4"/>
+<path d="M0 38H220" stroke-opacity=".3"/>
+<circle cx="19" cy="19" r="3" fill="#5eead4" stroke="none"/><circle cx="33" cy="19" r="3" fill="#94a3b8" stroke="none"/><circle cx="47" cy="19" r="3" fill="#a78bfa" stroke="none"/>
+<path d="m77 80-30 30 30 30m66-60 30 30-30 30m-27-69-15 78" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<rect x="54" y="272" width="1058" height="2" rx="1" fill="url(#accent)" opacity=".6"/>
+</svg>
